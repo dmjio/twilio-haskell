@@ -75,10 +75,10 @@ library
   hs-source-dirs:      src
   build-depends:       aeson ==0.*,
                        base ==4.*,
-                       bifunctors >= 5 && < 5.1,
+                       bifunctors,
                        bytestring ==0.10.*,
                        containers ==0.5.*,
-                       errors ==2.0.*,
+                       errors,
                        exceptions ==0.*,
                        free ==4.*,
                        http-client ==0.4.*,
